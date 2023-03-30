@@ -29,10 +29,7 @@ const show = ({ refElement, title, content }) => {
   // Enable the event listeners
   popperInstance.setOptions((options) => ({
     ...options,
-    modifiers: [
-      ...options.modifiers,
-      { name: 'eventListeners', enabled: true },
-    ],
+    modifiers: [...options.modifiers, { name: 'eventListeners', enabled: true }],
   }))
 
   // Update its position
@@ -46,10 +43,7 @@ const hide = () => {
   // Disable the event listeners
   popperInstance.setOptions((options) => ({
     ...options,
-    modifiers: [
-      ...options.modifiers,
-      { name: 'eventListeners', enabled: false },
-    ],
+    modifiers: [...options.modifiers, { name: 'eventListeners', enabled: false }],
   }))
 }
 
@@ -63,10 +57,8 @@ document.addEventListener('mouseover', (e) => {
     return
   }
 
-  const provinceName =
-    provinceElement.querySelector('title')?.innerHTML || 'Chưa có thông tin'
-  const provinceContent =
-    provinceElement.querySelector('desc')?.innerHTML || 'Chưa có thông tin'
+  const provinceName = provinceElement.querySelector('title')?.innerHTML || 'Chưa có thông tin'
+  const provinceContent = provinceElement.querySelector('desc')?.innerHTML || 'Chưa có thông tin'
 
   show({
     refElement: provinceElement,

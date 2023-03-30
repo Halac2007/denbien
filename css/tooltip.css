@@ -1,4 +1,5 @@
 #tooltip {
+  max-width: 250px;
   background: #fff;
   color: #000000;
   font-weight: bold;
@@ -57,7 +58,8 @@
   padding: 10px 0px;
 }
 .tooltip-desc p {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  padding: 4px 8px;
 }
 .tooltip-desc p a {
   text-decoration: none;
