@@ -176,6 +176,41 @@ header nav ul ul li a:hover {
   background: #ffffffb5 !important;
 }
 
+.search-form {
+  right: 200px;
+  top: 200px;
+}
+
+.search-field {
+  background-color: transparent;
+  background-image: url(https://wp-themes.com/wp-content/themes/twentythirteen/images/search-icon.png);
+  background-position: 5px center;
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  margin: 3px 0;
+  padding: 0 0 0 34px;
+  position: relative;
+  -webkit-transition: width 400ms ease, background 400ms ease;
+  transition: width 400ms ease, background 400ms ease;
+  width: 0px;
+  cursor: pointer;
+}
+
+.search-field:focus {
+  background-color: #000;
+  border: 2px solid #c3c0ab;
+  cursor: text;
+  outline: 0;
+  width: 250px;
+  color: #fff;
+}
+.search-form .search-submit {
+  display: none;
+}
+
 /*-------Mobile nav-----------*/
 .nav-btn {
   width: 28px;
@@ -195,7 +230,7 @@ header nav ul ul li a:hover {
 .nav-mobile {
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   bottom: 0;
   width: 320px;
   max-width: 100%;
@@ -787,12 +822,20 @@ header nav ul ul li a:hover {
 }
 
 .wrap-slider svg {
-  width: 30px;
-  height: 30px;
-  fill: #ff0000;
-  position: relative;
-  left: 40%;
-  top: 30%;
+  fill: #ff0000 !important;
+}
+.splide__arrow svg {
+  width: 2rem !important;
+  height: 2rem !important;
+}
+.splide__arrow--next,
+.splide__arrow--prev {
+  background: rgba(255, 255, 255, 0.7) !important;
+  border-radius: 50% !important;
+  height: 80px !important;
+  width: 80px !important;
+  top: 50% !important;
+  position: absolute;
 }
 
 /*-------------*/

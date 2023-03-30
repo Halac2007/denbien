@@ -1,31 +1,16 @@
 /*------slider-----------*/
-
-let slideIndex = 1
-showSlides(slideIndex)
-
-function plusSlides(n) {
-  showSlides((slideIndex += n))
-}
-
-function showSlides(n) {
-  let i
-  let slides = document.getElementsByClassName('mySlides')
-
-  if (n > slides.length) {
-    slideIndex = 1
-  }
-  if (n < 1) {
-    slideIndex = slides.length
-  }
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = 'none'
-  }
-
-  slides[slideIndex - 1].style.display = 'block'
-  setInterval(function () {
-    plusSlides(1)
-  }, 5000)
-}
+document.addEventListener('DOMContentLoaded', function () {
+  var splide = new Splide('.splide', {
+    arrows: 'false',
+    type: 'loop',
+    perPage: 1,
+    autoplay: true,
+    cover: false,
+    interval: 5000,
+    pauseOnHover: false,
+  })
+  splide.mount()
+})
 
 /*-------------------------*/
 const caccordContent = document.querySelectorAll('.box-show')
@@ -42,6 +27,7 @@ const mapvietnam = document.getElementById('mapvietnam'),
   allProvinces = mapvietnam.querySelectorAll('g')
 
 mapvietnam.addEventListener('mouseover', function (e) {
+  console.log(e)
   const province = e.target.parentNode
   if (e.target.nodeName == 'path') {
     for (var i = 0; i < allProvinces.length; i++) {
@@ -50,9 +36,10 @@ mapvietnam.addEventListener('mouseover', function (e) {
     province.classList.add('active')
     const provinceName = province.querySelector('title').innerHTML,
       provincePara = province.querySelector('desc')
+
     provinceInfo.style.left = `${e.x - 180}px`
 
-    provinceInfo.style.top = `${e.y - 230}px`
+    provinceInfo.style.top = `${e.y - 20}px`
 
     provinceInfo.innerHTML = ''
     provinceInfo.insertAdjacentHTML(
