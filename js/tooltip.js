@@ -55,8 +55,8 @@ const hide = () => {
 
 document.addEventListener('mouseover', (e) => {
   // Hide popup when mouse out the map
-  const map = e.target.querySelector('.map-vn')
-  if (map) hide()
+  const outsideTooltip = !e.target.closest('#tooltip')
+  if (outsideTooltip) hide()
 
   const provinceElement = e.target.closest('g')
   if (!provinceElement) {
