@@ -516,8 +516,9 @@ header nav ul ul li a:hover {
   text-transform: inherit;
   font-size: 3rem;
   text-align: center;
-  text-shadow: 0 -3px 0 rgba(5, 69, 179, 0.69), 0 6px 8px rgba(0, 0, 0, 0.4), 0 9px 10px rgba(0, 0, 0, 0.15),
-    0 30px 10px rgba(0, 0, 0, 0.18), 0 15px 10px rgba(0, 0, 0, 0.21);
+  text-shadow: 0 -3px 0 rgba(5, 69, 179, 0.69), 0 6px 8px rgba(0, 0, 0, 0.4),
+    0 9px 10px rgba(0, 0, 0, 0.15), 0 30px 10px rgba(0, 0, 0, 0.18),
+    0 15px 10px rgba(0, 0, 0, 0.21);
 }
 
 .panel-show .wrap-bg .text-content .content-title {
@@ -537,7 +538,8 @@ header nav ul ul li a:hover {
 .panel-show .wrap-bg .text-content .content-title h1:nth-child(1) {
   color: transparent;
   -webkit-text-stroke: 2px white;
-  text-shadow: 0 -3px 0 #1399fccf, 0 6px 8px rgba(0, 0, 0, 0.4), 0 9px 10px rgba(0, 0, 0, 0.15), 0 30px 10px rgba(0, 0, 0, 0.18),
+  text-shadow: 0 -3px 0 #1399fccf, 0 6px 8px rgba(0, 0, 0, 0.4),
+    0 9px 10px rgba(0, 0, 0, 0.15), 0 30px 10px rgba(0, 0, 0, 0.18),
     0 15px 10px rgba(0, 0, 0, 0.21);
 }
 .panel-show .wrap-bg .text-content .content-title h1:nth-child(2) {
@@ -548,10 +550,30 @@ header nav ul ul li a:hover {
 @keyframes animate {
   0%,
   100% {
-    clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+    clip-path: polygon(
+      0% 45%,
+      15% 44%,
+      32% 50%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
   }
   50% {
-    clip-path: polygon(0 60%, 16% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 40%, 100% 100%, 0% 100%);
+    clip-path: polygon(
+      0 60%,
+      16% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 40%,
+      100% 100%,
+      0% 100%
+    );
   }
 }
 
@@ -567,7 +589,8 @@ header nav ul ul li a:hover {
 .panel-show .wrap-bg .text-content .icon-top img {
   width: 100%;
   border-radius: 50%;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 .panel-show .wrap-bg .text-content .btn-center {
   cursor: pointer;
@@ -671,7 +694,8 @@ header nav ul ul li a:hover {
   line-height: 100px;
   vertical-align: middle;
   /* padding: 35px; */
-  box-shadow: rgba(0, 0, 124, 0.05) 0px 1px 0px, rgba(12, 12, 181, 0.1) 0px 0px 8px;
+  box-shadow: rgba(0, 0, 124, 0.05) 0px 1px 0px,
+    rgba(12, 12, 181, 0.1) 0px 0px 8px;
 }
 
 /* .page-home .box-intro .icon:hover {
@@ -688,7 +712,8 @@ header nav ul ul li a:hover {
   -ms-transform: scale(1.1);
   transform: scale(1.1);
   transition: 1s ease;
-  box-shadow: rgba(12, 12, 181, 0.1) 0px 0px 0px 2px, rgba(12, 12, 181, 0.1) 0px 4px 6px -1px,
+  box-shadow: rgba(12, 12, 181, 0.1) 0px 0px 0px 2px,
+    rgba(12, 12, 181, 0.1) 0px 4px 6px -1px,
     rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 .page-home .box-intro img {
@@ -1474,7 +1499,12 @@ header nav ul ul li a:hover {
 }
 /*--------footer--------*/
 .footer {
-  background-image: linear-gradient(178deg, rgba(253, 253, 253, 0.5) -2.55%, rgb(255, 255, 255) 63.5%), url(../img/bg-footer.jpg);
+  background-image: linear-gradient(
+      178deg,
+      rgba(253, 253, 253, 0.5) -2.55%,
+      rgb(255, 255, 255) 63.5%
+    ),
+    url(../img/bg-footer.jpg);
   background-position: left 25% center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1488,7 +1518,11 @@ header nav ul ul li a:hover {
   height: 60px;
   width: 100%;
   content: '';
-  background: linear-gradient(178deg, rgb(251 250 250 / 54%) -2.55%, rgb(255 255 255 / 59%) 63.5%);
+  background: linear-gradient(
+    178deg,
+    rgb(251 250 250 / 54%) -2.55%,
+    rgb(255 255 255 / 59%) 63.5%
+  );
   position: absolute;
   position: absolute;
   margin-top: -70px;
