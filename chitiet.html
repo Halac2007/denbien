@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/css.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <!-- nav-pc -->
+        <nav class="navigation nav-pc nav-cate">
+          <div class="wrap-logo">
+            <a class="logo" href="index.html" title="Báo Pháp Luật TP. Hồ Chí Minh"> </a>
+          </div>
+          <ul class="menu">
+            <li class="main">
+              <a href="gioithieu.html">Về chúng tôi</a>
+              <ul>
+                <li><a href="gioithieu.html">Thư ngỏ</a></li>
+                <li><a href="bantochuc.html">Ban tổ chức</a></li>
+                <li><a href="donvidonghanh.html">Đơn vị đồng hành</a></li>
+                <li><a href="quatangngudan.html">Quà tặng ngư dân</a></li>
+              </ul>
+            </li>
+            <li class="main"><a href="chuyen-muc.html">Tin tức</a></li>
+            <li class="main"><a href="chuyen-muc.html">Chuyện ra khơi</a></li>
+            <li class="main"><a href="timeline.html">Hành trình</a></li>
+            <li class="main"><a href="thuvienanh.html">Thư viện ảnh</a></li>
+            <li class="main"><a href="lienhe.html">Liên hệ</a></li>
+          </ul>
+          <div class="buttons">
+            <div class="icon search">
+              <svg class="h-24" viewBox="0 0 24 24">
+                <path
+                  d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                ></path>
+              </svg>
+            </div>
+            <div class="icon login">
+              <svg class="h-24" viewBox="0 0 24 24">
+                <path
+                  d="M11 7 9.6 8.4l2.6 2.6H2v2h10.2l-2.6 2.6L11 17l5-5-5-5zm9 12h-8v2h8c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-8v2h8v14z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+        </nav>
+        <div class="menu-mobile">
+          <div class="top-header">
+            <label for="nav-mobile-input" class="nav-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <g data-name="Layer 2">
+                  <g data-name="menu">
+                    <rect width="18" height="2" x="3" y="11" rx=".95" ry=".95" />
+                    <rect width="18" height="2" x="3" y="16" rx=".95" ry=".95" />
+                    <rect width="18" height="2" x="3" y="6" rx=".95" ry=".95" />
+                  </g>
+                </g>
+              </svg>
+            </label>
+            <a class="logo" href="index.html" title="Báo Pháp Luật TP. Hồ Chí Minh"> </a>
+            <div class="icon search">
+              <svg class="h-24" viewBox="0 0 24 24">
+                <path
+                  d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+
+          <input type="checkbox" name="" class="nav-input" id="nav-mobile-input" />
+          <label for="nav-mobile-input" class="nav-overlay"></label>
+
+          <nav class="nav-mobile">
+            <div class="top-logo">
+              <a class="logo" href="index.html" title="Báo Pháp Luật TP. Hồ Chí Minh"> </a>
+              <label for="nav-mobile-input" class="nav-btn nav-btn-close">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50px" height="50px">
+                  <path
+                    d="M 7.71875 6.28125 L 6.28125 7.71875 L 23.5625 25 L 6.28125 42.28125 L 7.71875 43.71875 L 25 26.4375 L 42.28125 43.71875 L 43.71875 42.28125 L 26.4375 25 L 43.71875 7.71875 L 42.28125 6.28125 L 25 23.5625 Z"
+                  />
+                </svg>
+              </label>
+            </div>
+            <div class="border-top"></div>
+            <ul class="mobile-menu">
+              <li class="mobile-main"><a href="index.html">Trang chủ</a></li>
+              <li class="mobile-main">
+                <a href="gioithieu.html">Giới thiệu</a>
+                <ul>
+                  <li>
+                    <a href="gioithieu.html">
+                      <svg
+                        fill="#000000"
+                        version="1.1"
+                        id="Capa_1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="10px"
+                        height="800px"
+                        viewBox="0 0 44.952 44.952"
+                        xml:space="preserve"
+                      >
+                        <g>
+                          <path
+                            d="M44.952,22.108c0-1.25-0.478-2.424-1.362-3.308L30.627,5.831c-0.977-0.977-2.561-0.977-3.536,0
+		c-0.978,0.977-0.976,2.568,0,3.546l10.574,10.57H2.484C1.102,19.948,0,21.081,0,22.464c0,0.003,0,0.025,0,0.028
+		c0,1.382,1.102,2.523,2.484,2.523h35.182L27.094,35.579c-0.978,0.978-0.978,2.564,0,3.541c0.977,0.979,2.561,0.978,3.538-0.001
+		l12.958-12.97c0.885-0.882,1.362-2.059,1.362-3.309C44.952,22.717,44.952,22.231,44.952,22.108z"
+                          />
+                        </g>
+                      </svg>
+                      Thư ngỏ</a
+                    >
+                  </li>
+                  <li>
+                    <a href="bantochuc.html">
+                      <svg
+                        fill="#000000"
+                        version="1.1"
+                        id="Capa_1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="10px"
+                        height="800px"
+                        viewBox="0 0 44.952 44.952"
+                        xml:space="preserve"
+                      >
+                        <g>
+                          <path
+                            d="M44.952,22.108c0-1.25-0.478-2.424-1.362-3.308L30.627,5.831c-0.977-0.977-2.561-0.977-3.536,0
+		c-0.978,0.977-0.976,2.568,0,3.546l10.574,10.57H2.484C1.102,19.948,0,21.081,0,22.464c0,0.003,0,0.025,0,0.028
+		c0,1.382,1.102,2.523,2.484,2.523h35.182L27.094,35.579c-0.978,0.978-0.978,2.564,0,3.541c0.977,0.979,2.561,0.978,3.538-0.001
+		l12.958-12.97c0.885-0.882,1.362-2.059,1.362-3.309C44.952,22.717,44.952,22.231,44.952,22.108z"
+                          />
+                        </g>
+                      </svg>
+                      Ban tổ chức</a
+                    >
+                  </li>
+                  <li>
+                    <a href="donvidonghanh.html">
+                      <svg
+                        fill="#000000"
+                        version="1.1"
+                        id="Capa_1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="10px"
+                        height="800px"
+                        viewBox="0 0 44.952 44.952"
+                        xml:space="preserve"
+                      >
+                        <g>
+                          <path
+                            d="M44.952,22.108c0-1.25-0.478-2.424-1.362-3.308L30.627,5.831c-0.977-0.977-2.561-0.977-3.536,0
+		c-0.978,0.977-0.976,2.568,0,3.546l10.574,10.57H2.484C1.102,19.948,0,21.081,0,22.464c0,0.003,0,0.025,0,0.028
+		c0,1.382,1.102,2.523,2.484,2.523h35.182L27.094,35.579c-0.978,0.978-0.978,2.564,0,3.541c0.977,0.979,2.561,0.978,3.538-0.001
+		l12.958-12.97c0.885-0.882,1.362-2.059,1.362-3.309C44.952,22.717,44.952,22.231,44.952,22.108z"
+                          />
+                        </g>
+                      </svg>
+                      Đơn vị đồng hành</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="mobile-main"><a href="chuyen-muc.html">Sự kiện</a></li>
+              <li class="mobile-main"><a href="timeline.html">Hành trình</a></li>
+              <li class="mobile-main"><a href="chuyen-muc.html">Chuyện ra khơi</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="wrap-introduce page-cate">
+      <div class="box-tophead"></div>
+    </div>
+
+    <div class="wrap-body">
+      <div class="container">
+        <div class="category">
+          <p><a href="chuyen-muc.html">Chuyện ra khơi</a></p>
+        </div>
+        <div class="timer">02/01/2023 | 07:01</div>
+        <div class="des">
+          <h1 class="title">Thủ tướng: Sớm trình cấp có thẩm quyền lộ trình cải cách tiền lương</h1>
+          <div class="article-sapo">
+            <p>
+              (PLO)- Thủ tướng đề nghị Tổng Liên đoàn Lao động trong năm 2023 tập trung, ưu tiên công tác lãnh đạo, chỉ đạo và nguồn
+              lực cho ba công việc trọng tâm, đột phá.
+            </p>
+          </div>
+        </div>
+        <!-- Content -->
+        <div class="article-content">
+          <div class="picture">
+            <div class="photo">
+              <a href="#">
+                <img src="img/halong.jpg" alt="" />
+              </a>
+            </div>
+            <p class="caption">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, odit.</p>
+          </div>
+          <p>
+            Sáng 1-2, Thủ tướng Phạm Minh Chính chủ trì Hội nghị đánh giá kết quả thực hiện Quy chế về mối quan hệ công tác giữa Chính
+            phủ và Tổng Liên đoàn Lao động Việt Nam, đề ra nhiệm vụ trọng tâm phối hợp công tác năm 2023 và thời gian tới.
+          </p>
+          <p>
+            Kết luận Hội nghị, Thủ tướng Phạm Minh Chính nêu rõ để triển khai các nghị quyết, kết luận, chỉ đạo của Trung ương, Chính
+            phủ, Bộ Chính trị, ngay trong tháng 1 vừa qua, Chính phủ đã ban hành Nghị quyết 01 và Thủ tướng đã ban hành Chỉ thị 03.
+          </p>
+          <p>
+            <strong>Phát triển thị trường lao động linh hoạt, hiệu quả, bền vững </strong>
+          </p>
+          <p>
+            Thủ tướng cũng làm việc với một số bộ, ngành để tổ chức thực hiện, nhất là tập trung cho ba khâu đột phá chiến lược (thể
+            chế, hạ tầng, nhân lực), mở rộng thị trường, đa dạng hóa thị trường, sản phẩm, cung ứng. Sắp tới, Thủ tướng sẽ tiếp tục làm
+            việc với các cơ quan về công tác cải cách hành chính, làm việc với các liên đoàn, hiệp hội doanh nghiệp về vấn đề đa dạng
+            hóa thị trường, sản phẩm, chuỗi cung ứng.
+          </p>
+          <p>
+            Thủ tướng đánh giá, năm 2022, trong bối cảnh nhiều khó khăn, thách thức nhưng tình hình kinh tế-xã hội nước ta tiếp tục
+            được phục hồi tích cực và đạt những kết quả quan trọng trên tất cả các mặt.
+          </p>
+          <div class="picture">
+            <div class="photo">
+              <a href="#">
+                <img src="img/anh4.jpg" alt="" />
+              </a>
+            </div>
+            <p class="caption">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, odit.</p>
+          </div>
+          <p>
+            Tuy nhiên, theo Thủ tướng, thời gian tới, tình hình thế giới tiếp tục diễn biến phức tạp; trong nước, nền kinh tế có những
+            thời cơ, thuận lợi và khó khăn, thách thức đan xen. Do đó, Thủ tướng nhấn mạnh yêu cầu quán triệt chủ đề điều hành "Đoàn
+            kết kỷ cương, bản lĩnh linh hoạt, đổi mới sáng tạo, kịp thời hiệu quả" đã được Chính phủ xác định tại Nghị quyết 01.
+          </p>
+          <p>
+            Định hướng phối hợp công tác thời gian tới, Thủ tướng nhấn mạnh các cơ quan, bộ, ngành cần tiếp tục thực hiện nghiêm túc,
+            hiệu quả, đồng bộ các công việc theo chức năng, nhiệm vụ, quyền hạn được giao. Tổng Liên đoàn Lao động phối hợp chặt chẽ,
+            đồng hành cùng Chính phủ, chung sức, đồng lòng triển khai hiệu quả các nhiệm vụ trọng tâm đã đề ra. Chủ động nghiên cứu, đề
+            xuất, tham gia xây dựng cơ chế, chính sách, nhất là các chính sách an sinh, phúc lợi xã hội cho người lao động.
+          </p>
+          <p>
+            <strong>Giải quyết vấn đề nhà ở để công nhân "an cư lạc nghiệp" </strong>
+          </p>
+          <p>
+            Tiếp tục phát huy vai trò của tổ chức công đoàn, là cầu nối quan trọng của Đảng, Nhà nước với giai cấp công nhân và người
+            lao động. Chuyển tải, phản ánh những tâm tư, nguyện vọng, đề xuất, kiến nghị của người lao động, doanh nghiệp để có biện
+            pháp tháo gỡ kịp thời. Quan tâm công tác phát triển đảng viên trong công nhân, người lao động, đặc biệt là tại các doanh
+            nghiệp ngoài nhà nước…
+          </p>
+
+          <p>
+            Tổng Liên đoàn Lao động tiếp tục phối hợp với bộ, ngành, địa phương thực hiện các biện pháp ổn định, phát triển thị trường
+            lao động linh hoạt, hiệu quả, bền vững và chăm lo đời sống người lao động; làm tốt công tác giám sát việc thực hiện chế độ
+            lương, thưởng đối với người lao động của người sử dụng lao động.
+          </p>
+          <div class="notebox">
+            <h3>Chính sách xã hội dịp Tết được thực hiện "đúng, đủ, kịp thời"</h3>
+            <p>
+              Tại buổi làm việc, Thủ tướng đã nhắc lại về đánh giá về Tết Quý Mão 2023 của Ban Bí thư: “Chúng ta đã tổ chức Tết vui
+              tươi, lành mạnh, an toàn, tiết kiệm. Nhìn chung mọi người, mọi nhà đều có Tết”.
+            </p>
+            <p>
+              Thủ tướng nhấn mạnh, đến nay, đã hỗ trợ trên 68,43 triệu lượt người lao động và trên 1,41 triệu lượt người sử dụng lao
+              động với tổng kinh phí gần 104,5 nghìn tỉ đồng. Chính sách xã hội dịp Tết được thực hiện "đúng, đủ, kịp thời", các địa
+              phương trong cả nước đã dành khoảng 9.500 tỉ đồng hỗ trợ trên 25 triệu lượt người.
+            </p>
+            <p>
+              Đã có 6,5 triệu lượt đoàn viên công đoàn, người lao động được thụ hưởng các hoạt động chăm lo của tổ chức công đoàn với
+              tổng nguồn kinh phí là trên 4.581 tỉ đồng…
+            </p>
+            <p class="author">
+              <span>Tác giả</span>
+              <b>BE MAI</b>
+            </p>
+          </div>
+          <p>
+            Năm 2023, Thủ tướng đề nghị Tổng Liên đoàn Lao động tập trung, ưu tiên công tác lãnh đạo, chỉ đạo và nguồn lực cho ba công
+            việc trọng tâm, đột phá.
+          </p>
+          <p>
+            Thứ nhất, tăng cường tạo công ăn, việc làm cho công nhân, người lao động thông qua đẩy mạnh sản xuất kinh doanh, tháo gỡ
+            các khó khăn liên quan các thị trường, hợp đồng, đơn hàng của doanh nghiệp trong bối cảnh kinh tế thế giới có nhiều khó
+            khăn; đồng thời nâng cao trình độ, tay nghề, kỹ năng cho công nhân đáp ứng yêu cầu hội nhập và phát triển đất nước.
+          </p>
+          <p>
+            Thứ hai, giải quyết vấn đề nhà ở để công nhân "an cư lạc nghiệp". Thứ ba là từng bước giải quyết, hoàn thiện các thiết chế
+            văn hóa, y tế, giáo dục, thể thao để nâng cao đời sống tinh thần và sức khỏe người lao động.
+          </p>
+          <p>
+            Thủ tướng yêu cầu ba Phó Thủ tướng (Trần Hồng Hà, Trần Lưu Quang, Lê Minh Khái) phối hợp với Tổng Liên đoàn Lao động và các
+            bộ, ngành, tổ chức các cuộc làm việc cụ thể về các nội dung này và báo cáo lại Thủ tướng trong tháng 2.
+          </p>
+          <p>
+            Thứ nhất, tăng cường tạo công ăn, việc làm cho công nhân, người lao động thông qua đẩy mạnh sản xuất kinh doanh, tháo gỡ
+            các khó khăn liên quan các thị trường, hợp đồng, đơn hàng của doanh nghiệp trong bối cảnh kinh tế thế giới có nhiều khó
+            khăn; đồng thời nâng cao trình độ, tay nghề, kỹ năng cho công nhân đáp ứng yêu cầu hội nhập và phát triển đất nước.
+          </p>
+          <div class="box-video">
+            <video class="video-wrapper" controls="">
+              <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4" />
+            </video>
+            <p class="caption-video">Video Thiệt thòi...cả giấc mơ. Nguồn: Youtube</p>
+          </div>
+          <p>
+            Tại hội nghị, Thủ tướng cũng đã giao việc cụ thể cho một số bộ, ngành, trong đó giao Bộ LĐ-TB&amp;XH phối hợp với Tổng Liên
+            đoàn Lao động Việt Nam và các địa phương khẩn trương kiểm tra, rà soát, đề xuất biện pháp xử lý doanh nghiệp nợ, trốn đóng
+            bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm tự nguyện của người lao động. Đồng thời đề ra giải pháp cụ thể nhằm bảo đảm quyền
+            lợi của hơn 200.000 người lao động là nạn nhân.
+          </p>
+        </div>
+        <!-- Social -->
+        <div class="end_author">
+          <div class="article_top">
+            <div class="box-social">
+              <div class="wrap-iframe">
+                <div
+                  class="fb-like fb_iframe_widget"
+                  data-href="https://plo.vn/post-705737.html"
+                  data-layout="button_count"
+                  data-action="like"
+                  data-size="large"
+                  data-show-faces="false"
+                  data-share="true"
+                  fb-xfbml-state="rendered"
+                  fb-iframe-plugin-query="action=like&amp;app_id=&amp;container_width=0&amp;href=https%3A%2F%2Fplo.vn%2Fpost-705737.html&amp;layout=button_count&amp;locale=vi_VN&amp;sdk=joey&amp;share=true&amp;show_faces=false&amp;size=large"
+                >
+                  <span style="vertical-align: bottom; width: 174px; height: 28px"
+                    ><iframe
+                      name="f32df360a7acdf8"
+                      width="1000px"
+                      height="1000px"
+                      data-testid="fb:like Facebook Social Plugin"
+                      title="fb:like Facebook Social Plugin"
+                      frameborder="0"
+                      allowtransparency="true"
+                      allowfullscreen="true"
+                      scrolling="no"
+                      allow="encrypted-media"
+                      src="https://www.facebook.com/v2.21/plugins/like.php?action=like&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df1609ea70cdc088%26domain%3Dplo.vn%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fplo.vn%252Ff56b414ebed48c%26relation%3Dparent.parent&amp;container_width=0&amp;href=https%3A%2F%2Fplo.vn%2Fpost-705737.html&amp;layout=button_count&amp;locale=vi_VN&amp;sdk=joey&amp;share=true&amp;show_faces=false&amp;size=large"
+                      style="border: none; visibility: visible; width: 174px; height: 28px"
+                      class=""
+                    ></iframe
+                  ></span>
+                </div>
+              </div>
+
+              <div class="social article__social">
+                <a
+                  href="javascript:void(0);"
+                  class="twitter"
+                  data-href="https://plo.vn/post-705737.html"
+                  rel="twitter"
+                  title="Chia sẻ qua Twitter"
+                >
+                  twitter
+                </a>
+                <a
+                  class="zalo zalo-share-button"
+                  href="javascript:void(0);"
+                  data-href="https://plo.vn/post-705737.html"
+                  data-oaid="783607375436573981"
+                  data-layout="2"
+                  data-color="blue"
+                  data-customize="true"
+                >
+                  zalo
+                </a>
+                <a href="mailto:email@domain.com" title="Chia sẻ qua Email" rel="nofollow noopener" target="_blank" class="mail"
+                  >mail</a
+                >
+                <a href="javascript:void(0);" class="printer sendprint" data-id="705737">printer</a>
+                <a
+                  href="javascript:void(0);"
+                  class="bookmark sendbookmark"
+                  onclick="ME.sendBookmark(this,711870);"
+                  data-id="711870"
+                  title="Lưu bài viết"
+                  ><i class="fa fa-bookmark"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <p class="name-text"><b>BE MAI</b></p>
+        </div>
+
+        <!-- Tag -->
+        <div class="article__tag">
+          <div class="box-heading">
+            <h3 class="wrap-heading">
+              <span class="heading">Tag:</span>
+            </h3>
+          </div>
+          <div class="box-content">
+            <a href="https://plo.vn/tag/ch%e1%ba%a1y+th%e1%bb%ad+metro+s%e1%bb%91+1.html" title="Chạy thử metro số 1"
+              >Chạy thử metro số 1</a
+            >
+            <a
+              href="https://plo.vn/tag/b%c6%b0%e1%bb%9bc+%c4%91%e1%bb%87m%c2%a0%c4%91%e1%bb%83+v%e1%ba%adn+h%c3%a0nh+to%c3%a0n+tuy%e1%ba%bfn.html"
+              title="Bước đệm&nbsp;để vận hành toàn tuyến"
+              >Tàu metro</a
+            >
+            <a href="https://plo.vn/tag/v%e1%ba%adn+h%c3%a0nh+khai+th%c3%a1c+v%c3%a0o+2023.html" title="Vận hành khai thác vào 2023"
+              >Vận hành khai thác vào 2023</a
+            >
+
+            <a href="https://plo.vn/maur-tag61948.html" title="MAUR">MAUR</a>
+          </div>
+        </div>
+        <!-- Comment -->
+        <div id="article-comment" class="box-comment article-comment" data-id="705860" data-type="20">
+          <div id="comment-705860" class="box-comment">
+            <div class="box-heading">
+              <h3 class="wrap-heading"><a href="#">Bình luận</a></h3>
+            </div>
+            <div class="box-content">
+              <div class="input wrap-comment">
+                <textarea
+                  rows="3"
+                  placeholder="Ý kiến của bạn sẽ được biên tập trước khi đăng. Xin vui lòng gõ tiếng Việt có dấu"
+                ></textarea>
+                <div class="w-100 mt-3 d-flex justify-content-between">
+                  <div class="wrap-login" id="login-comment">
+                    <span>Đăng nhập bằng :</span>
+                    <button class="fb login-fb" rel="facebook"><i class="fa fa-facebook-f"></i></button>
+                    <button class="google login-gg" rel="google"><i class="fa fa-google-plus" aria-hidden="true"></i></button>
+                    <button class="zalo login-zl" rel="zalo"></button>
+                    <button class="mail" id="login-cms"><i class="fa fa-envelope" aria-hidden="true"></i></button>
+                    <span>hoặc</span>
+                    <a href="javascript:void(0);" class="register-link" id="signup-cms">Đăng ký</a>
+                  </div>
+                  <button class="btn-Submit btnSubmit">Gửi bình luận</button>
+                </div>
+              </div>
+              <div class="filter-comment" style="display: none">
+                <div class="total-comment" id="total-comment">0 bình luận</div>
+                <div class="wrap-select">
+                  <label>sắp xếp theo:</label>
+                  <select id="ddlOrder">
+                    <option value="0">Mới nhất</option>
+                    <option value="1">Hay nhất</option>
+                  </select>
+                </div>
+              </div>
+              <div class="user"></div>
+              <button data-page="1" style="display: none" class="btn btn-link btn-lg mt-3 btnMore">XEM THÊM BÌNH LUẬN</button>
+            </div>
+          </div>
+        </div>
+        <!-- More -->
+        <div class="wrap-more">
+          <div class="title-cate">
+            <h3>Có thể bạn quan tâm</h3>
+          </div>
+          <div class="box-more">
+            <article class="story">
+              <div class="thumb">
+                <a href="#">
+                  <img src="img/anh2.jpg" alt="" />
+                </a>
+              </div>
+              <div class="title">
+                <h2><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing.</a></h2>
+              </div>
+            </article>
+            <article class="story">
+              <div class="thumb">
+                <a href="#">
+                  <img src="img/anh5.jpg" alt="" />
+                </a>
+              </div>
+              <div class="title">
+                <h2><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing.</a></h2>
+              </div>
+            </article>
+            <article class="story">
+              <div class="thumb">
+                <a href="#">
+                  <img src="img/anh4.jpg" alt="" />
+                </a>
+              </div>
+              <div class="title">
+                <h2><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing.</a></h2>
+              </div>
+            </article>
+            <article class="story">
+              <div class="thumb">
+                <a href="#">
+                  <img src="img/anh5.jpg" alt="" />
+                </a>
+              </div>
+              <div class="title">
+                <h2><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing.</a></h2>
+              </div>
+            </article>
+            <article class="story">
+              <div class="thumb">
+                <a href="#">
+                  <img src="img/anh2.jpg" alt="" />
+                </a>
+              </div>
+              <div class="title">
+                <h2><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing.</a></h2>
+              </div>
+            </article>
+            <article class="story">
+              <div class="thumb">
+                <a href="#">
+                  <img src="img/anh5.jpg" alt="" />
+                </a>
+              </div>
+              <div class="title">
+                <h2><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing.</a></h2>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="wrap-ques">
+        <div class="ques-content">
+          <h1>Hỏi đáp</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nostrum laudantium ducimus voluptatem.</p>
+          <div class="btn-submit"><a href="hoidap.html">Gửi câu hỏi</a></div>
+        </div>
+      </div>
+      <div class="wrap-footer">
+        <div class="box-logo">
+          <div class="logo"></div>
+          <div class="copy-right">
+            <p>© Báo điện tử Pháp Luật thành phố Hồ Chí Minh</p>
+            <p>Giấy phép số: 636/GP-BTTTT của Bộ Thông tin và Truyền thông cấp ngày 28-12-2020</p>
+            <p>Cơ quan chủ quản: Ủy ban Nhân dân Thành phố Hồ Chí Minh</p>
+            <p>Tổng biên tập: Mai Ngọc Phước</p>
+            <p>Website: https://plo.vn</p>
+            <p>Pháp Luật TP.HCM giữ bản quyền nội dung trên Website này.</p>
+            <p>Cấm sao chép dưới mọi hình thức nếu không có sự chấp thuận bằng văn bản.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button onclick="topFunction()" id="backtop" title="Go to top">
+      <svg width="800px" height="800px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+        <path
+          fill="#fff"
+          d="M572.235 205.282v600.365a30.118 30.118 0 1 1-60.235 0V205.282L292.382 438.633a28.913 28.913 0 0 1-42.646 0 33.43 33.43 0 0 1 0-45.236l271.058-288.045a28.913 28.913 0 0 1 42.647 0L834.5 393.397a33.43 33.43 0 0 1 0 45.176 28.913 28.913 0 0 1-42.647 0l-219.618-233.23z"
+        />
+      </svg>
+    </button>
+
+    <script>
+      /*------backtotop-------------*/
+      let mybutton = document.getElementById('backtop')
+
+      window.onscroll = function () {
+        scrollFunction()
+      }
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+          mybutton.style.display = 'block'
+        } else {
+          mybutton.style.display = 'none'
+        }
+      }
+
+      function topFunction() {
+        document.body.scrollTop = 0
+        document.documentElement.scrollTop = 0
+      }
+    </script>
+  </body>
+</html>
